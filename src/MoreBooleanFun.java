@@ -16,24 +16,30 @@ public class MoreBooleanFun {
         //System.out.println("Gets a senior discount: "+ (myAge >= 65));
         //System.out.println("Can order from children's menu: " + (myAge <=12));
 
-        if(myAge >= 25){
+        if(myAge >= 25)
+        {
             System.out.println("You can rent a car!");
         }
-        if(myAge < 25){
+        else
+        {
             System.out.println("You cannot rent a car :( ");
         }
 
-        if (myAge >= 65) {
+        if (myAge >= 65)
+        {
             System.out.println("You get a senior discount!");
         }
-        if(myAge < 65){
+        else
+        {
             System.out.println("Sorry, you are too young for a discount :( ");
         }
 
-        if(myAge <= 12){
+        if(myAge <= 12)
+        {
             System.out.println("You can order from the kids menu!");
         }
-        if(myAge > 12){
+        else
+        {
             System.out.println("Sorry, you are too old for the kids menu :( ");
         }
 
